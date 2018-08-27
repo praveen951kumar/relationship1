@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "name": "Peter Tan",
+      "label": "A1110030",
+      "id": 1
+    },
+    {
+      "name": "Michael Tan",
+      "label": "A1110049",
+      "id": 2
+    },
+    {
+      "name": "Emily Tan",
+      "label": "A1110084",
+      "id": 3
+    },
+    {
+      "name": "Jennifer Tan",
+      "label": "A1110901",
+      "id": 4
+    },
+	{
+      "name": "Shawn Tan",
+      "label": "A1110089",
+      "id": 5
+    },
+	{
+      "name": "Jeremy Tan",
+      "label": "A1110179",
+      "id": 6
+    },
+	{
+      "name": "John Tan",
+      "label": "A1110854",
+      "id": 7
+    },
+	{
+      "name": "Jasper Tan",
+      "label": "A1110675",
+      "id": 8
+    },
+	{
+      "name": "Tyler Tan",
+      "label": "A1110953",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2,
+      "type": "Child"
+      
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "type": "Child"
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "type": "Sibling"
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "type": "Sibling"
+    },
+	{
+      "source": 4,
+      "target": 5,
+      "type": "Spouse"
+    },
+	{
+      "source": 5,
+      "target": 6,
+      "type": "Child"
+    },
+	{
+      "source": 4,
+      "target": 6,
+      "type": "Child"
+    },
+	{
+      "source": 5,
+      "target": 7,
+      "type": "Brother"
+    },
+	{
+      "source": 8,
+      "target": 7,
+      "type": "Father"
+    },
+	{
+      "source": 8,
+      "target": 9,
+      "type": "Child"
+    }
+  ]
+}
